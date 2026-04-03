@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hola, soy Angel Valencia 👋
+# Hola, soy Angel Valencia.
 
 **TSU en Desarrollo de Software Multiplataforma · UTCGG**
 
