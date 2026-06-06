@@ -41,7 +41,7 @@
 
 <p>
   <img src="https://github-readme-stats.vercel.app/api?username=angel-valencia-c&show_icons=true&theme=tokyonight" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=angel-valencia-c&layout=compact&theme=tokyonight" alt="Top Languages" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-languages/?username=angel-valencia-c&layout=compact&theme=tokyonight" alt="Top Languages" width="48%" />
 </p>
 <p>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=angel-valencia-c&theme=tokyonight" alt="GitHub Streak" />
