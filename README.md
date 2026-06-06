@@ -28,9 +28,11 @@
 ### 🛠️ Tech Stack
 
 <p>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,jupyter,sqlite,pandas,react,php,docker&theme=dark" alt="Tech Stack" />
-  </a>
+ <img src="https://skillicons.dev/icons?i=python,sqlite,react,php,docker&theme=dark" alt="Tech Stack" />
+    <br><br>
+    <img src="https://img.shields.io/badge/Jupyter-F37626.svg?style=for-the-badge&logo=Jupyter&logoColor=white" alt="Jupyter" />
+    <img src="https://img.shields.io/badge/pandas-150458.svg?style=for-the-badge&logo=pandas&logoColor=white" alt="pandas" />
+
 </p>
 
 ---
