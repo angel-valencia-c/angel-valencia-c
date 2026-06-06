@@ -40,16 +40,16 @@
 ### 📈 GitHub Stats
 
 <p>
-  <img src="https://github-readme-stats.vercel.app/api?username=Angel&show_icons=true&theme=tokyonight" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Angel&layout=compact&theme=tokyonight" alt="Top Languages" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=angel-valencia-c&show_icons=true&theme=tokyonight" alt="GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=angel-valencia-c&layout=compact&theme=tokyonight" alt="Top Languages" width="48%" />
 </p>
 <p>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Angel&theme=tokyonight" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=angel-valencia-c&theme=tokyonight" alt="GitHub Streak" />
 </p>
 
 <!-- Profile Views -->
 <p>
-  <img src="https://komarev.com/ghpvc/?username=Angel&label=Profile%20Views&color=7AA2F7&style=flat" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=angel-valencia-c&label=Profile%20Views&color=7AA2F7&style=flat" alt="Profile Views" />
 </p>
 
 ---
