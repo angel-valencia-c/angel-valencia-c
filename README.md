@@ -1,14 +1,11 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg" />
-  <img src="assets/header-dark.svg" alt="Angel Valencia: data analyst and software developer. I turn messy data into clean databases, tested web apps and clear answers." width="100%" />
-</picture>
+### Hi, I'm Angel 👋
 
-I'm an Information Technology engineering student in Mexico who likes the whole path from **raw data to a decision**: pulling it from APIs and CSVs, modeling it in SQL, building the app around it and proving it works with tests.
+I like the whole path from **raw data to a decision**: pulling it from APIs and CSVs, modeling it in SQL, building the app around it and proving it works with tests. Most of what I build ends up as a database, a dashboard, or both.
 
-I'm looking for a **Data Analyst or Software Developer internship in the U.S. (Sep–Dec 2027, J-1 program)**.
-
-[LinkedIn](https://www.linkedin.com/in/%C3%A1ngel-andr%C3%A9s-valencia-contreras-726799400) · [Medium](https://medium.com/@angelandresvalenciaga.00) · [Email](mailto:angelandresvalenciaga.00@gmail.com)
+- 📍 Based in Mexico
+- 🎓 7th term, B.Eng. in IT & Digital Innovation (UTCGG); associate degree (TSU) in Multiplatform Software Development
+- 🎯 Looking for a **Data Analyst or Software Developer internship in the U.S.** (Sep–Dec 2027, J-1 program)
+- 📫 [LinkedIn](https://www.linkedin.com/in/%C3%A1ngel-andr%C3%A9s-valencia-contreras-726799400) · [Medium](https://medium.com/@angelandresvalenciaga.00) · [Email](mailto:angelandresvalenciaga.00@gmail.com)
 
 ---
 
@@ -53,13 +50,12 @@ Predicts match outcomes from historical results pulled from two sports-data REST
 
 ## How I work
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/workflow-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="assets/workflow-light.svg" />
-  <img src="assets/workflow-dark.svg" alt="How I work: 1 Spec, 2 Plan, 3 Build with AI agents, 4 Test, 5 Ship" width="100%" />
-</picture>
+I build with AI coding agents, but the decisions and the checks are mine. On the ISP portal it looked like this:
 
-I build with **AI coding agents**, and I own the result. I write the spec and acceptance criteria, split the work into phases, delegate implementation to planner/executor/auditor agents, and nothing ships until the tests pass and I've reviewed it.
+1. **Write the spec first**: requirements, business rules and acceptance criteria ([project spec](https://github.com/angel-valencia-c/isp-coverage-portal/blob/main/.agents/PROJECT.md)).
+2. **Split it into phases** small enough to review in one sitting.
+3. **Delegate to agents** with clear roles: [planner, executor and auditor](https://github.com/angel-valencia-c/isp-coverage-portal/tree/main/.agents).
+4. **Nothing is done until the tests pass**: that phase-by-phase discipline is how the portal reached [220 tests](https://github.com/angel-valencia-c/isp-coverage-portal/tree/main/tests).
 
 ## Toolbox
 
@@ -73,5 +69,6 @@ I build with **AI coding agents**, and I own the result. I write the spec and ac
 ## Right now
 
 - 🧪 Making the football model's backtest honest: only past matches, Brier score vs. baseline
-- 🎓 7th term, B.Eng. in IT & Digital Innovation (UTCGG), with an associate degree (TSU) in Multiplatform Software Development
 - ✍️ Writing about what I learn on [Medium](https://medium.com/@angelandresvalenciaga.00)
+
+<sub>Last updated: November 2026</sub>
