@@ -1,70 +1,77 @@
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg" />
+  <img src="assets/header-dark.svg" alt="Angel Valencia: data analyst and software developer. I turn messy data into clean databases, tested web apps and clear answers." width="100%" />
+</picture>
 
-<h1>Hi there, I'm Angel 👋</h1>
+I'm an Information Technology engineering student in Mexico who likes the whole path from **raw data to a decision**: pulling it from APIs and CSVs, modeling it in SQL, building the app around it and proving it works with tests.
 
-<!-- Typing SVG -->
-<p>
-  <a href="https://github.com/angel-valencia-c">
-    <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=22&duration=2000&pause=1000&color=7AA2F7&center=true&vCenter=true&repeat=true&width=500&lines=Software+Engineer;Data+Analytics;AI+Automation" alt="Typing SVG" />
-  </a>
-</p>
+I'm looking for a **Data Analyst or Software Developer internship in the U.S. (Sep–Dec 2027, J-1 program)**.
 
-<p>
-  <strong>Resolviendo problemas complejos a través de la Ingeniería de Datos, desarrollo de APIs y arquitecturas Full Stack.<br>Transformando datos brutos en insights accionables.</strong>
-</p>
+[LinkedIn](https://www.linkedin.com/in/%C3%A1ngel-andr%C3%A9s-valencia-contreras-726799400) · [Medium](https://medium.com/@angelandresvalenciaga.00) · [Email](mailto:angelandresvalenciaga.00@gmail.com)
 
-<hr/>
+---
 
-<h3>🔭 Currently Working On</h3>
+## Selected work
 
-| Proyecto | Descripción |
-| :--- | :--- |
-| **🚀 Sports Analytics Engine** | Creación de pipelines ETL, modelado predictivo (Bivariado de Poisson/Monte Carlo) y automatización en Python. |
-| **📊 Data Analytics & EDA** | Uso de ecosistemas interactivos (Jupyter) para limpieza de datos, análisis exploratorio y validación de modelos. |
-| **📦 Proyecto Jomicel** | Mantenimiento y evolución de plataforma Full Stack. |
+### 📡 [ISP Coverage & Sales Portal](https://github.com/angel-valencia-c/isp-coverage-portal)
+A regional internet provider was answering every "is there coverage at my address?" by phone. With a team of 3, we built a portal where customers check coverage, compare plans and request installation, and staff manage the leads.
 
-<hr/>
+- Admin panel with **3 roles**, lead notes, **duplicate detection** (same phone within 7 days) and filtered **CSV export**
+- **Demand analytics** by municipality, community and covered vs. uncovered zones, to show where to expand next
+- **220 automated tests (pytest), all passing, 77% coverage**
 
-<h3>🛠️ Tech Stack</h3>
+`Flask 3` `SQLAlchemy` `Alembic` `MySQL` `Flask-Login` · client project, team of 3
 
-<p>
-  <img src="https://skillicons.dev/icons?i=python,sqlite,react,php,docker&theme=dark" alt="Tech Stack" />
-  <br><br>
-  <img src="https://img.shields.io/badge/Jupyter-F37626.svg?style=for-the-badge&logo=Jupyter&logoColor=white" alt="Jupyter" />
-  <img src="https://img.shields.io/badge/pandas-150458.svg?style=for-the-badge&logo=pandas&logoColor=white" alt="pandas" />
-</p>
+### 🎮 [ARC Raiders Loot Analysis](https://github.com/angel-valencia-c/arc-raiders-loot-analysis)
+Which enemies drop the most valuable loot, and where? The Kaggle data hid its relationships in JSON strings inside CSV columns.
 
-<hr/>
+- ETL that flattens nested JSON into a **normalized 7-table SQLite schema** (1,021 rows)
+- SQL joins + **5 seaborn/matplotlib charts**. Finding: *Queen* is worth **27,340** in loot, but only on 3 of the 6 maps
+- 7 unit tests with GitHub Actions CI
 
-<h3>📈 GitHub Stats</h3>
+`pandas` `SQLite` `Jupyter` `seaborn` `pytest`
 
-<p>
-  <img src="https://github-readme-stats.vercel.app/api?username=angel-valencia-c&show_icons=true&theme=tokyonight&cache_seconds=1800" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-languages/?username=angel-valencia-c&layout=compact&theme=tokyonight&cache_seconds=1800" alt="Top Languages" width="48%" />
-</p>
-<p>
-  <img src="https://streak-stats.demolab.com/?user=angel-valencia-c&theme=tokyonight" alt="GitHub Streak" />
-</p>
+### 🔗 [URL Shortener Analytics](https://github.com/angel-valencia-c/url-shortener-analytics)
+A link shortener built for marketing: every click is logged **before** the 302 redirect, so you know which campaign actually works.
 
-<!-- Profile Views -->
-<p>
-  <img src="https://komarev.com/ghpvc/?username=angel-valencia-c&label=Profile%20Views&color=7AA2F7&style=flat" alt="Profile Views" />
-</p>
+- Captures UTM tags and ad click IDs (Google, Meta, TikTok, Microsoft), plus device and browser parsed from the User-Agent
+- Password-protected dashboard with Chart.js trends, link editing, on/off switch and **Excel/CSV reports**
 
-<hr/>
+`Flask` `SQLite` `Chart.js` `openpyxl`
 
-<h3>📫 Connect with me</h3>
+### ⚽ Football Match Predictor <sub>private · in progress</sub>
+Predicts match outcomes from historical results pulled from two sports-data REST APIs.
 
-<p>
-  <a href="https://www.linkedin.com/in/%C3%A1ngel-andr%C3%A9s-valencia-contreras-726799400">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="mailto:angelandresvalenciaga.00@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <a href="https://YOUR_PORTFOLIO.com">
-    <img src="https://img.shields.io/badge/Portfolio-252F3F?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio" />
-  </a>
-</p>
+- ETL with rate-limit handling and upserts into SQLite
+- Poisson goal model with time-decayed form, opponent-strength weighting and head-to-head history
+- **Next:** a leak-free backtest scored with Brier score against a baseline
 
-</div>
+`SciPy` `SQLAlchemy` `REST APIs`
+
+---
+
+## How I work
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/workflow-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/workflow-light.svg" />
+  <img src="assets/workflow-dark.svg" alt="How I work: 1 Spec, 2 Plan, 3 Build with AI agents, 4 Test, 5 Ship" width="100%" />
+</picture>
+
+I build with **AI coding agents**, and I own the result. I write the spec and acceptance criteria, split the work into phases, delegate implementation to planner/executor/auditor agents, and nothing ships until the tests pass and I've reviewed it.
+
+## Toolbox
+
+| | |
+|---|---|
+| **Data** | Python · pandas · SQL (MySQL, SQLite) · Jupyter · matplotlib · seaborn · SciPy |
+| **Backend** | Flask · SQLAlchemy · Alembic · REST APIs · PHP |
+| **Frontend** | HTML · CSS · JavaScript · Chart.js |
+| **Quality & tools** | pytest · GitHub Actions · Git · Linux (Arch / CachyOS) |
+
+## Right now
+
+- 🧪 Making the football model's backtest honest: only past matches, Brier score vs. baseline
+- 🎓 7th term, B.Eng. in IT & Digital Innovation (UTCGG), with an associate degree (TSU) in Multiplatform Software Development
+- ✍️ Writing about what I learn on [Medium](https://medium.com/@angelandresvalenciaga.00)
